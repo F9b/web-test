@@ -1,0 +1,80 @@
+html {
+	width: 100%;
+	height: 100%;
+}
+body {
+	height: 100%;
+	margin: 0 auto;
+	max-width: 1200px;
+	/* background */
+	background-image: url(./img/9ZeZjCORwjiVdW0XckGMLo0k4bWS83hP0wffQ6bJ.jpeg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+header section {
+	background-color: #fff;
+	display: grid;
+	grid-template-columns: auto 300px;
+}
+#Logo {
+	display: block;
+	width: 140px;
+	height: 80px;
+	margin: 0;
+	background-image: url(./img/KRAFT-MAIN_0005s_0002_img_440180.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+nav {
+	display: inline-grid;
+	grid-auto-flow: column;
+	align-content: center;
+
+}
+nav li {
+	text-decoration: none;
+	list-style: none;
+}
+
+nav li a {
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+}
+
+.Stranica_1 {
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+.Levo {
+	display: grid;
+	background-color: rgba(0,0,255,0.5);
+	
+}
+.Levo > h2 {
+	display: inline-block;
+	margin-left: 5%;
+	margin-top: auto;
+	margin-bottom: auto;
+
+}
+.Desno {
+	display: grid;
+	background-color: rgba(255,0,0,0.5);
+	
+}
+.Desno p {
+	margin: 5%;
+}
+
+@media only screen and (max-width: 800px) {
+	.Stranica_1 {
+		display: grid;
+		grid-template-columns: auto;
+	}
+
+}
